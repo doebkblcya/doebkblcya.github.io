@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header .profile {
+    display: inline-block;
+    text-align: center;
+}
+
+header .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header .profession {
+    font-size: 18px;
+    color: #ffebd1;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.skill h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin: 5px 0;
+}
+
+.skill-bar.html {
+    background-color: #f8b400;
+    width: 90%;
+}
+
+.skill-bar.css {
+    background-color: #2965f1;
+    width: 80%;
+}
+
+.skill-bar.javascript {
+    background-color: #f0db4f;
+    width: 85%;
+}
+
+.skill-bar.react {
+    background-color: #61dafb;
+    width: 70%;
+}
+
+.contact-info {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
