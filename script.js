@@ -3,5 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const sections = document.querySelectorAll('section');
     sections.forEach((section, index) => {
         section.style.animationDelay = `${index * 0.5}s`;
+        section.classList.add('fade-in');
     });
 });
